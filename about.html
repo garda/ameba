@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Ameba | Arturs Mazurs, Timber Craftsman & Wood Specialist</title>
+  <meta name="description" content="Arturs Mazurs — born in Latvia, based in Denmark. A craftsman and wood specialist with formal training in wood object conservation, working with timber since 2016." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="sheet" aria-hidden="true"><span class="mark tl"></span><span class="mark tr"></span><span class="mark bl"></span><span class="mark br"></span></div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ameba — Restaurering, home">
+        <img class="brand-logo" src="images/logo-black.png" alt="Ameba — Restaurering" />
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu" data-nav-toggle><span class="bar"></span></button>
+      <nav class="primary-nav" id="primary-nav" data-nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html" class="is-active" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+        <span class="nav-locale">Sjælland · DK</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Fixed atmospheric background video — visible at top, fades out at bottom,
+       pinned while scrolling, released at the closing CTA (see main.js) -->
+  <div class="about-bg" data-about-bg aria-hidden="true">
+    <video data-ambient loop muted playsinline preload="metadata" src="videos/ameba_5_v1.mp4#t=0.1"></video>
+  </div>
+
+  <main>
+    <section class="page-head">
+      <div class="container about-grid">
+        <div class="about-intro">
+          <h1 class="page-title" data-reveal>The Material<br />and the <em>Method</em>.</h1>
+          <ul class="meta-list" data-reveal>
+            <li><span>Name</span><strong>Arturs Mazurs</strong></li>
+            <li><span>Origin</span><strong>Latvia</strong></li>
+            <li><span>Based</span><strong>Denmark</strong></li>
+            <li><span>Working since</span><strong>2016</strong></li>
+            <li><span>Training</span><strong>Wood object conservation</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-body-section">
+      <div class="container narrow">
+        <p class="lead" data-reveal>My name is Arturs Mazurs. Born in Latvia and based in Denmark, I am a craftsman and wood specialist with formal training in wood object conservation.</p>
+        <p data-reveal>Working with wood since 2016, my career has been defined by a deep fascination with how timber behaves across functionality and time. Having spent years building large-scale public sculptures and restoring historical elements, I view wood not just as a construction material, but as a living medium that requires respect, precision, and an understanding of its natural limits.</p>
+        <p data-reveal>I prefer to work deliberately. By diving deep into details of a project, I ensure that the final result isn't just beautiful today, but remains stable and functional for decades to come.</p>
+
+        <div class="approach">
+          <span class="eyebrow" data-reveal><span class="tick"></span>The working principles</span>
+          <div class="approach-grid" data-reveal-list>
+            <div class="approach-item"><h3>Patience</h3><p>No rushing. The right result is found in the details, not the deadline.</p></div>
+            <div class="approach-item"><h3>Integrity</h3><p>Structural soundness first—every element earns its place in the whole.</p></div>
+            <div class="approach-item"><h3>Material</h3><p>Deep knowledge of species, age and behaviour guides each decision.</p></div>
+            <div class="approach-item"><h3>Permanence</h3><p>Built to remain stable and functional for decades to come.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <div class="cta-rings" data-rings aria-hidden="true"></div>
+      <div class="container cta-inner">
+        <p class="eyebrow" data-reveal><span class="tick"></span>Next step</p>
+        <h2 data-reveal>Let's build something that lasts.</h2>
+        <p class="cta-sub" data-reveal>If you value deliberate, considered craftsmanship, I'd be glad to hear about your project.</p>
+        <a class="btn btn-primary" href="contact.html" data-reveal>Inquire About a Project <span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img class="brand-logo brand-logo--footer" src="images/logo-black.png" alt="Ameba — Restaurering" />
+        <p class="footer-tag">Crafting and preserving timber architecture, sculpture, and design across Sjælland and internationally.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <div class="stack">
+          <a href="mailto:studio@ameba.dk">studio@ameba.dk</a>
+          <a href="tel:+4530123456">+45 30 12 34 56</a>
+          <p class="muted">Mon–Fri · 09:00–16:00</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Where</h4>
+        <div class="stack">
+          <p>Sjælland, Denmark</p>
+          <p class="muted">Established 2016</p>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <span>© 2026 Ameba — Arturs Mazurs</span>
+      <span>Response within 24–48 business hours</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+videos/
+node_modules/
+.next/
+.DS_Store
+*.log
+.env
+.env.local
+.vercel/
+*.mov
+*.mp4
+*.zip
+SHOOT-BRIEF.*
